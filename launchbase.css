@@ -1,3 +1,23 @@
+.left {
+    display: flex;
+}
+
+.left a {
+    margin-right: 50px;
+}
+
+.back {
+    display: flex;
+    align-items: center;
+}
+
+.back h3 {
+    margin-left: 10px;    
+    font-size: 14px;
+}
+
+
+
 .cards {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
