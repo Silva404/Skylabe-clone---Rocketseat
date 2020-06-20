@@ -1,0 +1,100 @@
+@import 'https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet';
+
+:root {
+    --rocket-color: #7159c1;
+    --laranja-color: rgb(253, 149, 31);
+    --desc-color:  rgb(135, 134, 139);
+    --gostack-color: rgb(4, 211, 97);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    text-rendering: optimizelegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+    background: rgb(11, 10, 13);
+}
+
+* a {
+    text-decoration: none; 
+}
+
+section {
+    padding-top: 40px;
+    height: 100vh;
+    
+    background: url(/assets/mountain-bg.png) 0% 0% / cover fixed, rgb(11, 10, 13); 
+}
+
+
+.content {
+    min-width: auto;
+    max-height: auto;
+
+    max-width: 1366px;
+    width: 1285px;
+    width: 100%;    
+    height: 100vh;
+    padding: 0 30px;
+}
+
+
+header {
+    color: rgb(255, 255, 255);
+    background: #111116;
+
+    height: 80px;
+    width: 100%;
+    padding: 0 30px;
+
+    display: flex;    
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .user_info {
+    height: 56px;
+    max-width: 320px;
+    display: flex;
+}
+
+header .user_info button {
+    background: none;
+    border: none;
+    margin-right: 30px;
+}
+
+header .user_info-text {
+    width: 100%;  
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+}
+
+header .user_info-text h3 {
+    font-size: 16px;
+    margin: 0 0 6px 0;
+}
+
+header .user_info-text p {
+    font-size: 12px;
+    color: var(--desc-color);
+    display: flex;
+}
+
+header .user_info img {
+    height: 56px;
+    width: 56px;
+    margin: 0 10px 0 16px;
+
+    border: 4px solid var(--rocket-color);
+    border-radius: 50%;
+    object-fit: cover;
+}
